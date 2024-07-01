@@ -88,6 +88,3 @@ function Pesquisa() {
 
 
 export default Pesquisa;
-
-
-// Parei no video "como funciona estados em 1:34 quando iria começar a explicar sobre elementos de blur"

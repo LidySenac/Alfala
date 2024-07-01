@@ -69,7 +69,7 @@ async function deletarFavorito(id){
             favoritos.length !== 0 ? favoritos.map(favorito => (
               <Resultado onClick={() => deletarFavorito(favorito.id)}>
                 <p>{favorito.nome}</p>
-                <img src={livroImg}/>
+                <img src={livroImg} alt='img'/>
               </Resultado>
             )) : null
           }
